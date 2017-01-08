@@ -1,0 +1,24 @@
+.templateconf
+LICENSE
+README
+README.hardware
+bitbake/**
+build/** !build/conf/**
+documentation/**
+meta-intel/**
+meta-selftest/**
+meta-skeleton/**
+meta-yocto-bsp/**
+meta-yocto/**
+meta/**
+oe-init-build-env
+oe-init-build-env-memres
+scripts/**
+
+build/bitbake.lock
+build/cache/
+build/conf/sanity_info
+build/conf/templateconf.cfg
+build/downloads/
+build/sstate-cache/
+build/tmp/
