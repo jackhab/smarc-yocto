@@ -1,6 +1,7 @@
+*.swp
 .templateconf
 LICENSE
-README
+/README
 README.hardware
 bitbake/**
 build/** !build/conf/**
