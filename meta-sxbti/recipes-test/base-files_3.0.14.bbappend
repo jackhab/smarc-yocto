@@ -1,4 +1,5 @@
-FILESEXTRAPATHS := "${THISDIR}/${PN}:"
+FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
+
 
 dirs755 += "/media/sda1 \
             /media/sda2 \
@@ -11,3 +12,5 @@ dirs755 += "/media/sda1 \
             /media/mmcblk0p3 \
             /media/mmcblk0p4 \      
             "
+
+
